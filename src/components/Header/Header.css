@@ -1,0 +1,21 @@
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #23180D;
+    height: 80px;
+}
+.header-container img{
+    width: 15%
+}
+.menu-container a{
+    text-decoration: none;
+    padding:5px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold ;
+    margin-left: 15px;
+}
+.menu-container a:hover{
+    border-bottom : 2px solid white;
+}
