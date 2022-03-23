@@ -1,4 +1,31 @@
+.food{
+    border-radius: 15px;
+    position: relative;
+}
 .food img{
-    width: 286px;
-    height: 286px; 
+    width: 100%;
+}
+.food-info{
+    margin-top: 0;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+.additional h6,.food-name{
+    margin: 2px;
+}
+.additional{
+    display: flex;
+    justify-content: space-between;
+}
+.cart-btn{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    padding: 10px 0px;
+    background-color: lightcoral;
+}
+.cart-btn:hover{
+    background-color: rgb(248, 157, 157);
 }
