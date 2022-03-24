@@ -1,5 +1,6 @@
+.cart img {
+    width: 50%;
+}
 .cart{
-    position: sticky;
-    top:0;
-    padding: 28px 10px;
+    display: flex;
 }

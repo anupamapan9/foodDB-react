@@ -13,7 +13,6 @@ const Items = () => {
     const addToCart = (food) => {
         const newCart = [...cart, food]
         setCart(newCart)
-        console.log(cart)
     }
 
     return (
@@ -26,7 +25,10 @@ const Items = () => {
 
             <div className='cart-container'>
                 <h2>Cart</h2>
-                <Cart meals={cart}></Cart>
+                {
+                    cart.map(selected=> <Cart meals={selected}></Cart>)
+                }
+               
             </div>
         </div>
     );

@@ -13,7 +13,7 @@ const Food = (props) => {
                     <h6>Popular in: {strArea}</h6>
                 </span>
                 <p>{strInstructions.slice(0, 250)}</p>
-                <button className='cart-btn' onClick={() => addToCart(strMeal)}>Add To Cart</button>
+                <button className='cart-btn' onClick={() => addToCart(food)}>Add To Cart</button>
             </div>
 
         </div>
