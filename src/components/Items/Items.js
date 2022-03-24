@@ -26,9 +26,7 @@ const Items = () => {
 
             <div className='cart-container'>
                 <h2>Cart</h2>
-
-                <Cart meals={cart}></Cart>)
-
+                <Cart meals={cart}></Cart>
             </div>
         </div>
     );
